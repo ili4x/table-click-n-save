@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## Save html table to xls on ANY page!
 
-You can use the [editor on GitHub](https://github.com/ili4x/table-click-n-save/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+1. Open [this page](https://ili4x.github.io/table-click-n-save/index.html) and bookmark link on it.
+2. Click on this bookmark when viewing page, where you want to save table.
+3. Click on the table you want to save.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Libraries
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ili4x/table-click-n-save/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Script uses Sheetjs [xlsx](https://github.com/sheetjs/js-xlsx) lib for generating xlsx and jQuery for handling events. If jQuery is not present on target page, it will load from CDN.
