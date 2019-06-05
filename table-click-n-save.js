@@ -1,4 +1,4 @@
-var tableCLickNSave_base = 'https://ili4.orn.ru/table-click';
+var tableCLickNSave_base = 'https://raw.githubusercontent.com/ili4x/table-click-n-save/master';
 
 $.getScript(tableCLickNSave_base + '/unpkg.com/FileSaver.min.js');
 $.getScript(tableCLickNSave_base + '/unpkg.com/xlsx.min.js');
